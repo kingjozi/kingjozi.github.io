@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+
+body{
+    background: white;
+    color: black;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 40px;
+}
+
+nav ul li a{
+    color: #459B9D;
+    text-decoration:none ;
+    font-size: 20px;
+}
+
+nav ul li {
+    color: #459B9D;
+    text-decoration:none ;
+    font-size: 20px;
+}
+
+#header h1{
+    color:#291720;
+    margin-left: 60px;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+   
+}
+
+.about-col_1{
+    flex-basis: 35%;
+    
+}
+
+.about-col_1 img{
+    height:20rem;
+    width:20rem;
+    border-radius: 50%;
+    object-fit:contain;
+    margin-bottom: 1rem ;
+    border: 0.3rem solid #291720;
+    margin-top: 3rem;
+     
+}
+
+.about-col_1 .name {
+    font-size: large;
+    color: black;
+    margin-left: 65px;
+    margin-top: 0px;
+}
+
+.about-col_1 .profession {
+    font-size: medium;
+    color: black;
+    margin-left: 80px;
+    margin-top: 0px;
+} 
+
+.about-col_1 .social_media_in {
+    font-size: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    color:#459B9D ;
+    transition: 0.3s;
+}  
+
+.about-col_1 .social_media_in :hover{
+    color: #04A777;
+}
+
+.about-col_1 .social_media_git {
+    font-size: 30px;
+    text-decoration: none;
+    color: #459B9D;
+    transition: 0.3s;
+
+} 
+
+.about-col_1 .social_media_git :hover{
+    color: #04A777;
+}
+
+.about-col_1 .social_media_google_scholar {
+    font-size: 30px;
+    text-decoration: none;
+    color: #459B9D;
+    transition: 0.3s;
+    
+    
+} 
+
+.about-col_1 .social_media_google_scholar :hover{
+    color: #04A777;
+}
+.about-col_2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+p{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.Interests_Education{
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.Interests_Education .Interests_info{
+    padding-right: 200px;
+
+}
+
+.Interests_Education .Interests_info h3{
+    padding-bottom: 10px;
+    font-weight:normal;
+}
+
+.Interests_info ul li{
+    padding-bottom: 3px;
+    margin-left: 18px;
+    font-size:large;
+}
+
+.Interests_Education .Education_info h3{
+    padding-bottom: 10px;
+    font-weight:normal;
+}
+
+.ed_icon{
+    display: flex;
+    column-gap: 7px;
+}
+.ed_icon ion-icon {
+    font-weight:normal;
+    font-size:large;
+}
+
+.ed_icon h4{
+    font-weight:normal;
+    font-size:20px;
+    margin: 0px;
+
+}
+
+.Education_info p {
+    padding-left: 30px;
+    font-weight:light;
+    font-size:16px;
+}
