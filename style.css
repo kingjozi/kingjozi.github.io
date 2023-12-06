@@ -166,7 +166,6 @@ p{
     column-gap: 7px;
 }
 .ed_icon ion-icon {
-    font-weight:normal;
     font-size:large;
 }
 
@@ -181,4 +180,66 @@ p{
     padding-left: 30px;
     font-weight:light;
     font-size:16px;
+}
+
+/* for small screens */
+@media only screen and (max-width: 600px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0px 5px;
+    }
+
+    #header h1{
+        color:#291720;
+        margin-left: 0.5px;
+    }
+    .about-col_1, .about-col_2{
+        flex-basis: 100%;
+    }
+    
+    .about-col_2{
+        font-size: 13px;
+    }
+    
+    p{
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    .Interests_Education .Interests_info{
+        padding-right: 100px;
+    
+    }
+
+    .Interests_info ul li{
+        padding-bottom: 3px;
+        margin-left: 11px;
+        font-size:12px;
+    }
+
+    .ed_icon ion-icon {
+        font-size:20px;
+    }
+
+    .ed_icon h4{
+        font-weight:normal;
+        font-size:14px;
+        margin: 0px;
+    
+    }
+    
+    .Education_info p {
+        padding-left: 17px;
+        font-weight:light;
+        font-size:11px;
+    }
+    
 }
